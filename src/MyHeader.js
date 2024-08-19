@@ -3,10 +3,10 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom"
 export default function MyHeader() {
 	return (
 		<header>
-			<h1 className="site-title">
-				<Link to="/">Jacob Miller's Interactive Résumé</Link> 
-			</h1>
 			<nav className="nav">
+				<h1 className="site-title">
+					<Link to="/">Jacob Miller</Link> 
+				</h1>
 				<ul>
 					<CustomLink to="/about">About Me</CustomLink>
 					<CustomLink to="/projects">Projects</CustomLink>

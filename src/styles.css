@@ -4,11 +4,16 @@
 
 body {
 	margin: 0;
+	background-color: rgb(13, 13, 23);
 }
 
 header {
-	background-color: #333;
+	background-color: rgb(13, 13, 23);
 	margin: 0;
+}
+
+h1 {
+	color: white;
 }
 
 .container {
@@ -55,10 +60,23 @@ header {
 	padding: .25rem;
 }
 
+.nav li {
+	border-radius: 0 0 10px 10px;
+}
+
 .nav li.active {
-	background-color: #555;
+	background-image: linear-gradient(rgb(168, 168, 168), rgb(38, 38, 68), rgb(38, 38, 68));
 }
 
 .nav li:hover {
-	background-color: #777;
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(38, 38, 68), rgb(38, 38, 68));
+}
+
+.game-widget {
+	background-color: white;
+	display: inline-block;
+	align-items: center;
+	width: 80%;
+	max-width: 1104px;
+	border-radius: 10px;
 }
