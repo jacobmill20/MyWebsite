@@ -11,6 +11,7 @@ export default function MyHeader() {
 					<CustomLink to="/about">About Me</CustomLink>
 					<CustomLink to="/projects">Projects</CustomLink>
 					<CustomLink to="/games">Games</CustomLink>
+					<CustomLink to="/contact">Contact Me</CustomLink>
 				</ul>
 			</nav>
 		</header>

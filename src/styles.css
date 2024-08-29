@@ -4,8 +4,6 @@
 
 body {
 	margin: 0;
-	background-image: linear-gradient(rgb(13, 13, 20), rgb(20, 20, 27));
-	font-family: Lato, sans-serif;
 }
 
 header {
@@ -23,9 +21,16 @@ ul {
 	margin: 5px 0px 2px 0px;
 }
 
+.intro {
+	color: white;
+	font-size: 10vh
+}
+
 .container {
 	margin: 1tem;
 	text-align: center;
+	background-image: linear-gradient(rgb(13, 13, 20), rgb(20, 20, 27));
+	min-height: 100vh;
 }
 
 .site-title{
@@ -47,7 +52,7 @@ ul {
 	justify-content: space-evenly;
 	align-items: stretch;
 	gap: 2rem;
-	padding: 0 1rem;
+	padding: 0 1rem 5px 1rem;
 }
 
 .nav ul {
@@ -72,14 +77,15 @@ ul {
 }
 
 .nav li.active {
-	background-image: linear-gradient(rgb(168, 168, 168), rgb(38, 38, 68), rgb(38, 38, 68));
+	background-image: linear-gradient(rgb(168, 168, 168), rgb(20, 20, 27), rgb(20, 20, 27));
 }
 
 .nav li:hover {
-	background-image: linear-gradient(rgb(255, 255, 255), rgb(38, 38, 68), rgb(38, 38, 68));
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(20, 20, 27), rgb(20, 20, 27));
 }
 
 .game-button-div {
+	font-family: Lato, sans-serif;
 	display: inline-block;
 	width: 80%;
 	max-width: 1104px;
