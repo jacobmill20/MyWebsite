@@ -1,13 +1,15 @@
+/* Color Palet: #050714, #B43F3F, #FF8225, #F8EDED */
+
 * {
 	box-sizing: border-box;
 }
 
 body {
+	background-color: #050714;
 	margin: 0;
 }
 
 header {
-	background-color: rgb(13, 13, 20);
 	margin: 0;
 }
 
@@ -23,13 +25,17 @@ ul {
 
 .intro {
 	color: white;
-	font-size: 10vh
+	font-size: 150px;
+	padding: 50px 0;
+}
+
+.intro h1 {
+	font-size: 25px;
 }
 
 .container {
 	margin: 1tem;
 	text-align: center;
-	background-image: linear-gradient(rgb(13, 13, 20), rgb(20, 20, 27));
 	min-height: 100vh;
 }
 
@@ -77,11 +83,11 @@ ul {
 }
 
 .nav li.active {
-	background-image: linear-gradient(rgb(168, 168, 168), rgb(20, 20, 27), rgb(20, 20, 27));
+	background-image: linear-gradient(rgb(168, 168, 168), #050714, #050714);
 }
 
 .nav li:hover {
-	background-image: linear-gradient(rgb(255, 255, 255), rgb(20, 20, 27), rgb(20, 20, 27));
+	background-image: linear-gradient(rgb(255, 255, 255), #050714, #050714);
 }
 
 .game-button-div {
@@ -95,7 +101,7 @@ ul {
 	display: block;
 	background-color: #fa5c5c;
 	text-decoration: none;
-	padding: 5px 0px 5px 0px;
+	padding: 5px 0px;
 	border: 3px inset #fa5c5c;
 	border-radius: 15px;
 }
@@ -106,4 +112,31 @@ ul {
 	width: 80%;
 	max-width: 1104px;
 	border-radius: 15px;
+}
+
+footer {
+	color: white;
+	margin: 0;
+	padding: 10px 0px;
+	border-top: 2px solid #F8EDED;
+}
+
+footer p {
+	text-align: center;
+	font-size: 15px;
+}
+
+.footer-icons {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-icons li{
+	font-size: 30px;
+	display: inline;
+	padding: 0 5px;
+}
+
+.icons {
+	color: #FF8225;
 }

@@ -1,4 +1,5 @@
-import MyHeader from "./MyHeader"
+import MyHeader from "./MyHeader";
+import MyFooter from "./MyFooter";
 import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Games from "./Pages/Games";
@@ -19,6 +20,7 @@ function App() {
     			<Route path="/contact" element={ <Contact />} />
     		</Routes>
     	</div>
+    	<MyFooter />
     </>
   );
 }
